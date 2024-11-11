@@ -1,0 +1,5 @@
+autoimage
+rms fit @CA
+strip :WAT
+strip :CL 
+trajout stripped.nc  

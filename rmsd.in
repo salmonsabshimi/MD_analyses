@@ -1,0 +1,8 @@
+
+rmsd out rmsd.dat @CA first
+
+rmsd out rmsd_activesite.dat :772,780,800,810,836,848,849,851,917,922,930,932,936,941@C,CA,N # WT
+rmsd out rmsd_activesite.dat :667,675,695,705,731,743,744,746,812,817,825,827,831,836@C,CA,N # WT active
+rmsd out rmsd_activesite.dat :882,890,910,920,946,958,959,961,1027,1032,1040,1042,1046,1051 # tagged inactive
+rmsd out rmsd_activesite.dat :777,785,805,815,841,853,854,856,922,927,935,937,941,946 # tagged active
+
